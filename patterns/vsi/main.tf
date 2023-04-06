@@ -16,7 +16,7 @@ provider "ibm" {
 ##############################################################################
 
 module "landing_zone" {
-  source                         = "../../"
+  source                         = "../../landing-zone"
   prefix                         = var.prefix
   region                         = var.region
   tags                           = var.tags
